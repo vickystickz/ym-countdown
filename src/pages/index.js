@@ -46,7 +46,7 @@ function CountdownTimer() {
   };
 
   return (
-    <div className="h-full grid grid-rows-12 space-y-12">
+    <div className="h-full grid grid-rows-12 space-y-12 overflow-x-hidden">
       <div className="flex col-span-1">
         <div className="flex w-[350px] flex-col gap-4 p-2 ">
           <div className="flex items-center gap-2">
