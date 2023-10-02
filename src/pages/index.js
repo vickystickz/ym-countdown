@@ -46,9 +46,9 @@ function CountdownTimer() {
   };
 
   return (
-    <div className="h-screen grid grid-rows-12 space-y-12">
+    <div className="h-full grid grid-rows-12 space-y-12">
       <div className="flex col-span-1">
-        <div className="flex w-[350px] flex-col gap-4 ">
+        <div className="flex w-[350px] flex-col gap-4 p-2 ">
           <div className="flex items-center gap-2">
             <input
               type="number"
@@ -138,7 +138,7 @@ function CountdownTimer() {
         </div>
       </div>
       <div className="col-span-1 grid grid-cols-12 w-[100vw] justify-end">
-        <div className="col-span-4 flex items-center justify-start pl-6">
+        <div className="col-span-4 flex items-center justify-start w-full pl-4">
           <div>
             <Image
               src={FutaLogo}
